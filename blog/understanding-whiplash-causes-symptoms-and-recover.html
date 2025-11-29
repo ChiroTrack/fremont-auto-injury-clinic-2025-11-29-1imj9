@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fremont Auto Injury Clinic - Expert Accident Chiropractic Care with Same-Day Appointments for Fast Relief">
+    <meta name="keywords" content="auto injury clinic, chiropractic care, accident treatment, Fremont">
+    <meta name="author" content="Fremont Auto Injury Clinic">
+    <title>Fremont Auto Injury Clinic - Expert Accident Chiropractic Care</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        body {
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+        
+        .gradient-primary {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FFD166 100%);
+        }
+        
+        .gradient-primary-text {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FFD166 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .btn-gradient {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FFD166 100%);
+            color: white;
+            transition: all 0.3s ease-out;
+        }
+        
+        .btn-gradient:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(255, 90, 95, 0.3);
+            filter: brightness(1.1);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease-out;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease-out;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 25px 50px -12px rgba(255, 90, 95, 0.2);
+        }
+        
+        .faq-question {
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+        }
+        
+        .faq-question:hover {
+            color: #FF5A5F;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease-out;
+        }
+        
+        .faq-answer {
+            max-height: 500px;
+            overflow: hidden;
+            transition: all 0.3s ease-out;
+        }
+        
+        .faq-answer.hidden {
+            display: none;
+        }
+        
+        .mobile-menu {
+            transition: all 0.3s ease-out;
+        }
+        
+        .mobile-menu.hidden {
+            display: none;
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease-out;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .sticky-nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 sticky-nav">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-center justify-between">
+                <a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9" class="flex items-center gap-2">
+                    <div class="gradient-primary w-10 h-10 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-heartbeat text-white text-lg font-bold"></i>
+                    </div>
+                    <span class="text-2xl font-bold text-gray-900">Fremont Auto Injury</span>
+                </a>
+                <a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9/blog.html" class="text-gray-700 font-medium hover:text-[#FF5A5F] transition-colors duration-300">
+                    ← Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Blog Content -->
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <article class="prose prose-lg max-w-none">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6 text-gray-900">Understanding Whiplash: Causes, Symptoms, and Recovery at Fremont Auto Injury Clinic</h1>
+            
+            <img src="https://images.unsplash.com/photo-1576091160550-112173f31c77?w=1200&h=675&fit=crop&q=80" alt="Medical professional examining patient with neck injury from auto accident" class="w-full rounded-lg shadow-lg mb-8">
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Whiplash is one of the most common injuries resulting from auto accidents, yet many people underestimate its severity and long-term effects. When a vehicle is struck from behind or involved in a collision, the sudden acceleration and deceleration forces the head and neck to move rapidly in an unnatural motion, similar to the cracking of a whip. This violent movement can cause significant damage to the soft tissues, muscles, ligaments, and nerves in the neck and upper back. At Fremont Auto Injury Clinic, we specialize in diagnosing and treating whiplash injuries with evidence-based chiropractic care designed to promote healing and restore function.</p>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">Understanding whiplash is crucial for anyone involved in an auto accident. Many victims don't realize they've suffered a whiplash injury immediately after the collision, as symptoms can develop hours or even days later. This delayed onset of symptoms can lead people to dismiss their injuries as minor, which can result in chronic pain and complications if left untreated. Our experienced chiropractors at Fremont Auto Injury Clinic are dedicated to helping patients understand their injuries, receive prompt treatment, and achieve complete recovery through comprehensive care plans tailored to their specific needs.</p>
+            
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900">What is Whiplash and How Does It Occur?</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Whiplash occurs when the neck undergoes rapid acceleration and deceleration, typically during a motor vehicle collision. The injury gets its name from the whip-like motion of the head and neck during the accident. When a car is hit from behind, the body is pushed forward while the head lags behind momentarily before snapping forward. This creates a hyperextension injury followed by hyperflexion, putting tremendous stress on the cervical spine and surrounding structures.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">The most common scenario for whiplash injuries is rear-end collisions, but whiplash can also result from front-end or side-impact accidents. Even low-speed collisions at speeds as low as 5 miles per hour can cause significant whiplash injuries. The severity of whiplash doesn't always correlate with the speed of the collision or the amount of vehicle damage. Some people experience severe injuries in low-speed accidents, while others may have minor injuries in higher-speed collisions, depending on factors such as neck strength, posture at the time of impact, and the angle of collision.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800">The Biomechanics of Whiplash Injury</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">During a whiplash injury, several structures in the neck can be damaged. The cervical spine consists of seven vertebrae separated by intervertebral discs that act as shock absorbers. When the neck is suddenly jerked, these discs can be herniated or bulged, potentially pressing on nerve roots and causing radiating pain and numbness. The facet joints, which allow the neck to move, can also be injured and become inflamed. Additionally, the muscles and ligaments that support the neck can be strained or torn, leading to muscle spasms and reduced range of motion.</p>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">The soft tissue damage from whiplash can be particularly problematic because these injuries are not always visible on standard X-rays. This is why comprehensive evaluation by an experienced chiropractor is essential. Our team at Fremont Auto Injury Clinic uses advanced diagnostic techniques to identify all injuries, including those affecting soft tissues that may not appear on initial imaging studies.</p>
+            
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900">Recognizing Whiplash Symptoms</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Whiplash symptoms can vary significantly from person to person and may not appear immediately after the accident. Some people experience symptoms within hours, while others may not notice symptoms until several days have passed. This delayed onset is one reason why seeking immediate medical attention after an auto accident is so important, even if you feel fine at the scene.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800">Common Whiplash Symptoms</h3>
+            
+            <ul class="list-disc list-inside mb-6 space-y-2">
+                <li class="text-gray-700">Neck pain and stiffness that may worsen with movement</li>
+                <li class="text-gray-700">Headaches, often starting at the base of the skull</li>
+                <li class="text-gray-700">Shoulder and upper back pain</li>
+                <li class="text-gray-700">Tingling or numbness in the arms and hands</li>
+                <li class="text-gray-700">Dizziness and balance problems</li>
+                <li class="text-gray-700">Fatigue and difficulty concentrating</li>
+                <li class="text-gray-700">Memory problems and brain fog</li>
+                <li class="text-gray-700">Sleep disturbances and insomnia</li>
+                <li class="text-gray-700">Jaw pain and difficulty chewing</li>
+                <li class="text-gray-700">Blurred vision and sensitivity to light</li>
+            </ul>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">It's important to note that whiplash can also cause psychological symptoms such as anxiety, depression, and post-traumatic stress disorder, particularly in severe cases. The combination of physical pain and emotional trauma from the accident can significantly impact a patient's quality of life and recovery trajectory. At Fremont Auto Injury Clinic, we take a holistic approach to whiplash treatment, addressing both physical and emotional aspects of recovery.</p>
+            
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900">Why Immediate Treatment is Critical</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">One of the biggest mistakes people make after a car accident is delaying treatment or assuming their injuries will resolve on their own. While some minor strains may heal without intervention, whiplash injuries often require professional treatment to prevent chronic complications. When whiplash is left untreated, the initial inflammation can lead to scar tissue formation in the muscles and ligaments, resulting in permanent stiffness and chronic pain.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Seeking immediate chiropractic care after an auto accident has several advantages. First, early intervention can prevent the development of chronic pain conditions. Second, prompt treatment may reduce inflammation and promote faster healing. Third, early diagnosis ensures that all injuries are identified before they become more complicated. Finally, immediate documentation of injuries is important for insurance claims and potential legal proceedings.</p>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">At Fremont Auto Injury Clinic, we offer same-day appointments specifically because we understand the importance of immediate treatment. Our chiropractors can perform a thorough evaluation on the day of your injury, establish a baseline of your condition, and begin treatment immediately to optimize your recovery outcomes.</p>
+            
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900">Comprehensive Whiplash Treatment at Fremont Auto Injury Clinic</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Our approach to treating whiplash is comprehensive and individualized. We don't believe in one-size-fits-all treatment plans. Instead, we evaluate each patient's unique condition, injury severity, and recovery goals to develop a personalized treatment strategy. Our treatment protocols combine chiropractic adjustments, physical therapy, rehabilitation exercises, and other evidence-based modalities to promote healing and restore function.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800">Chiropractic Adjustments for Whiplash</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Chiropractic adjustments are a cornerstone of whiplash treatment. These precise manipulations help restore proper alignment to the cervical vertebrae, reduce nerve irritation, and improve mobility. Our chiropractors use gentle, controlled techniques specifically adapted for whiplash injuries. We never use aggressive force that could further injure already-damaged tissues. Instead, we employ techniques such as flexion-distraction, gentle mobilization, and specific adjustment protocols designed for cervical spine injuries.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800">Therapeutic Exercises and Rehabilitation</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Rehabilitation exercises are essential for whiplash recovery. These exercises help strengthen the neck muscles, improve flexibility, and restore normal range of motion. Our therapists will teach you specific exercises to perform at home, which are crucial for maintaining progress between clinic visits. These exercises progress gradually as your condition improves, starting with gentle movements and advancing to more challenging strengthening exercises.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800">Soft Tissue Therapy</h3>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Soft tissue therapy, including massage and myofascial release, helps reduce muscle tension, improve blood flow, and promote healing of damaged muscles and ligaments. These therapies complement chiropractic adjustments and help patients achieve faster pain relief and improved function. Soft tissue work also helps prevent the formation of scar tissue that can lead to chronic stiffness.</p>
+            
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800">Ergonomic Advice and Lifestyle Modifications</h3>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">We provide guidance on proper posture, ergonomic modifications at work and home, and lifestyle changes that support healing. Many people unconsciously adopt postures that increase neck strain during recovery. Our team educates patients on proper body mechanics to prevent re-injury and support optimal healing.</p>
+            
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900">The Recovery Timeline for Whiplash</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">The recovery timeline for whiplash varies depending on the severity of the injury and individual healing factors. Mild whiplash injuries may resolve within a few weeks to a couple of months with appropriate treatment. Moderate injuries typically require 2-3 months of treatment, while severe whiplash injuries may require 6 months or longer of comprehensive care. However, these timelines are estimates, and individual recovery may be faster or slower depending on various factors.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Factors that influence recovery time include the severity of the initial injury, age and overall health of the patient, adherence to treatment recommendations, compliance with home exercises, and the presence of pre-existing conditions. Younger, healthier individuals with good muscle tone typically recover faster than older patients or those with pre-existing neck problems. Additionally, patients who actively participate in their recovery through consistent treatment and home exercises generally achieve faster healing than those who are passive in their treatment.</p>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">At Fremont Auto Injury Clinic, we monitor your progress throughout treatment and adjust your care plan as needed. Regular reassessment ensures that your treatment remains appropriate for your current condition and that you're progressing toward full recovery. Our goal is to help you achieve the fastest possible recovery while ensuring that healing is complete and chronic complications are prevented.</p>
+            
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900">Preventing Chronic Whiplash Complications</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">One of the most important aspects of whiplash treatment is preventing the development of chronic pain and complications. When whiplash is not properly treated, patients can develop post-traumatic headaches, chronic neck pain, and persistent neurological symptoms that can last for years. These chronic conditions can significantly impact quality of life, work productivity, and overall well-being.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Research shows that early, aggressive treatment of whiplash injuries significantly reduces the risk of developing chronic symptoms. Patients who receive prompt chiropractic care have better long-term outcomes and are less likely to develop chronic pain conditions. This is why we emphasize the importance of seeking immediate treatment after an auto accident.</p>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">Our comprehensive approach to whiplash treatment is designed not just to relieve immediate symptoms, but to promote complete healing and prevent long-term complications. By addressing all aspects of the injury—physical, neurological, and functional—we help patients achieve full recovery and return to their normal activities without limitations.</p>
+            
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900">Insurance Coverage and Financial Considerations</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Many patients worry about the cost of whiplash treatment and how it will be covered by insurance. At Fremont Auto Injury Clinic, we work directly with insurance companies to ensure that your treatment is covered under your auto insurance policy. In most cases, auto insurance policies include medical benefits that cover chiropractic treatment for injuries sustained in accidents.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Our knowledgeable staff handles all insurance verification and billing matters, so you don't have to worry about navigating the insurance process. We'll verify your coverage, file claims on your behalf, and work with your insurance company to maximize your benefits. In most cases, patients don't have to pay out-of-pocket for treatment covered by their insurance policy.</p>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">If you have questions about insurance coverage or financial arrangements, our team is ready to help. We believe that cost should never be a barrier to receiving the care you need for proper recovery from a whiplash injury.</p>
+            
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900">When to Seek Emergency Care</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">While most whiplash injuries can be effectively treated through chiropractic care, some symptoms warrant immediate emergency medical attention. If you experience any of the following symptoms after an auto accident, seek emergency care immediately rather than scheduling a chiropractic appointment:</p>
+            
+            <ul class="list-disc list-inside mb-6 space-y-2">
+                <li class="text-gray-700">Severe headache or migraine</li>
+                <li class="text-gray-700">Loss of consciousness or confusion</li>
+                <li class="text-gray-700">Severe neck pain with inability to move</li>
+                <li class="text-gray-700">Numbness or weakness in arms or legs</li>
+                <li class="text-gray-700">Difficulty breathing or swallowing</li>
+                <li class="text-gray-700">Vision changes or eye pain</li>
+                <li class="text-gray-700">Severe dizziness or vertigo</li>
+                <li class="text-gray-700">Signs of spinal cord injury</li>
+            </ul>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">After receiving emergency care for any severe symptoms, you can then schedule an appointment with our clinic for ongoing chiropractic treatment and rehabilitation. Emergency care and chiropractic care work together to ensure comprehensive treatment of your injuries.</p>
+            
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900">Getting Started with Treatment at Fremont Auto Injury Clinic</h2>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">If you've been in an auto accident and suspect you may have whiplash, the first step is to schedule an appointment with our clinic. We offer same-day appointments to ensure you receive prompt evaluation and treatment. During your initial visit, our chiropractors will perform a comprehensive examination, which may include physical tests, range of motion assessments, and diagnostic imaging if necessary.</p>
+            
+            <p class="mb-4 leading-relaxed text-gray-700">Based on our findings, we'll develop a personalized treatment plan tailored to your specific injury and recovery goals. We'll explain our findings in clear, understandable terms and answer any questions you may have about your treatment. Throughout your recovery, we'll maintain open communication and regularly assess your progress to ensure you're healing properly.</p>
+            
+            <p class="mb-6 leading-relaxed text-gray-700">Don't let whiplash pain control your life. Contact Fremont Auto Injury Clinic today to schedule your same-day appointment and begin your journey toward complete recovery. Our experienced team is ready to help you heal and return to the activities you enjoy.</p>
+            
+            <div class="bg-gradient-to-r from-[#FF5A5F] to-[#FFD166] rounded-lg p-8 mt-8 text-white">
+                <h3 class="text-2xl font-bold mb-4">Ready to Start Your Recovery?</h3>
+                <p class="mb-6 leading-relaxed">Don't wait to address your whiplash injury. Early treatment leads to better outcomes and faster recovery. Schedule your same-day appointment with Fremont Auto Injury Clinic today.</p>
+                <a href="https://fremontautoinjuryclinic.com" class="inline-block bg-white text-[#FF5A5F] px-8 py-3 rounded-lg font-bold hover:shadow-lg transition-all duration-300">
+                    Book Your Appointment Now
+                </a>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16 md:py-24 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div class="flex flex-col gap-6">
+                    <div class="flex items-center gap-2">
+                        <div class="gradient-primary w-10 h-10 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-heartbeat text-white text-lg font-bold"></i>
+                        </div>
+                        <span class="text-2xl font-bold text-white">Fremont Auto Injury</span>
+                    </div>
+                    <p class="text-gray-400 font-medium leading-relaxed">
+                        Expert chiropractic care for auto injury recovery with same-day appointments and compassionate treatment.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-all duration-300 text-gray-300 hover:text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-all duration-300 text-gray-300 hover:text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-all duration-300 text-gray-300 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-all duration-300 text-gray-300 hover:text-white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services Column -->
+                <div>
+                    <h4 class="text-xl font-bold text-white mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Auto Injury Treatment</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Chiropractic Care</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Rehabilitation</a></li>
+                        <li><a href="#features" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Preventative Care</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources Column -->
+                <div>
+                    <h4 class="text-xl font-bold text-white mb-6">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="blog.html" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Blog</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">FAQ</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div>
+                    <h4 class="text-xl font-bold text-white mb-6">Contact</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-envelope text-[#FF5A5F] mt-1 flex-shrink-0"></i>
+                            <a href="mailto:litchiropractic1@gmail.com" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium break-all">litchiropractic1@gmail.com</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-phone text-[#FF5A5F] mt-1 flex-shrink-0"></i>
+                            <a href="tel:+1234567890" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">(123) 456-7890</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-[#FF5A5F] mt-1 flex-shrink-0"></i>
+                            <p class="text-gray-400 font-medium">Fremont, California</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                    <p class="text-gray-400 font-medium text-center md:text-left">
+                        &copy; 2025 Fremont Auto Injury Clinic. All rights reserved.
+                    </p>
+                    <p class="text-gray-400 font-medium text-center">
+                        Expert chiropractic care for your recovery
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Lucide Icons
+            lucide.createIcons();
+
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
