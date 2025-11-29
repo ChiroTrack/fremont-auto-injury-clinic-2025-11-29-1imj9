@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fremont Auto Injury Clinic Blog - Expert Articles on Auto Injury Treatment, Chiropractic Care, and Recovery">
+    <meta name="keywords" content="auto injury blog, chiropractic care articles, accident treatment, whiplash recovery, Fremont">
+    <meta name="author" content="Fremont Auto Injury Clinic">
+    <title>Blog - Fremont Auto Injury Clinic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        body {
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+        
+        .gradient-primary {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FFD166 100%);
+        }
+        
+        .gradient-primary-text {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FFD166 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .btn-gradient {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FFD166 100%);
+            color: white;
+            transition: all 0.3s ease-out;
+        }
+        
+        .btn-gradient:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(255, 90, 95, 0.3);
+            filter: brightness(1.1);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease-out;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease-out;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 25px 50px -12px rgba(255, 90, 95, 0.2);
+        }
+        
+        .blog-card {
+            transition: all 0.3s ease-out;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .sticky-nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: white;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 sticky-nav">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9" class="flex items-center gap-2 hover:opacity-80 transition-opacity duration-300">
+                <div class="gradient-primary w-10 h-10 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-heartbeat text-white text-lg font-bold"></i>
+                </div>
+                <span class="text-2xl font-bold text-gray-900">Fremont Auto Injury</span>
+            </a>
+
+            <!-- Back Button -->
+            <a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9" class="text-gray-700 font-medium hover:text-[#FF5A5F] transition-colors duration-300 flex items-center gap-2">
+                <i class="fas fa-arrow-left"></i>
+                Back
+            </a>
+        </nav>
+    </header>
+
+    <!-- Blog Hero Section -->
+    <section class="relative bg-gradient-to-br from-gray-50 to-gray-100 pt-20 pb-24 md:pt-32 md:pb-40 overflow-hidden">
+        <!-- Decorative Elements -->
+        <div class="absolute top-10 right-10 w-72 h-72 bg-[#FF5A5F] opacity-5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-20 w-96 h-96 bg-[#FFD166] opacity-5 rounded-full blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-tight mb-6">
+                    <span class="text-gray-900">Our </span>
+                    <span class="gradient-primary-text">Blog</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-600 font-medium leading-relaxed max-w-3xl mx-auto">
+                    Expert insights, helpful tips, and comprehensive guides on auto injury recovery, chiropractic care, and getting back to your best health
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Purpose Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 border border-gray-100">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Welcome to Our Blog</h2>
+                <p class="text-lg text-gray-600 font-medium leading-relaxed mb-4">
+                    At Fremont Auto Injury Clinic, we believe that informed patients make better recovery decisions. Our blog is dedicated to providing you with comprehensive, evidence-based information about auto injury treatment, chiropractic care, and the path to complete recovery.
+                </p>
+                <p class="text-lg text-gray-600 font-medium leading-relaxed mb-4">
+                    Whether you're dealing with whiplash, back pain, neck strain, or other auto accident injuries, our expert team shares valuable insights, treatment options, recovery timelines, and preventative care strategies to help you understand your condition and optimize your healing.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <i class="fas fa-stethoscope text-white text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-1">Medical Insights</h3>
+                            <p class="text-sm text-gray-600">Expert medical advice and treatment information</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <i class="fas fa-heart text-white text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-1">Recovery Tips</h3>
+                            <p class="text-sm text-gray-600">Practical strategies for faster healing</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <i class="fas fa-lightbulb text-white text-lg"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-900 mb-1">Prevention Guide</h3>
+                            <p class="text-sm text-gray-600">Learn how to prevent future injuries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post Section -->
+    <section class="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Latest Article</h2>
+                <div class="h-1 w-20 bg-gradient-to-r from-[#FF5A5F] to-[#FFD166] rounded-full"></div>
+            </div>
+
+            <!-- Featured Post Card -->
+            <div class="blog-card bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-lg">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-0">
+                    <!-- Featured Image -->
+                    <div class="lg:col-span-1 h-64 lg:h-auto bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] flex items-center justify-center">
+                        <div class="text-center">
+                            <i class="fas fa-spine text-white text-6xl opacity-80"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Content -->
+                    <div class="lg:col-span-2 p-8 md:p-12 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center gap-4 mb-4">
+                                <span class="inline-block px-4 py-2 bg-[#FFD166] text-[#FF5A5F] font-bold text-sm rounded-full">Featured</span>
+                                <span class="text-gray-500 font-medium text-sm">Published: November 29, 2025</span>
+                            </div>
+                            
+                            <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                                Understanding Whiplash: Causes, Symptoms, and Recovery at Fremont Auto Injury Clinic
+                            </h3>
+                            
+                            <p class="text-lg text-gray-600 font-medium leading-relaxed mb-6">
+                                Whiplash is a common yet often underestimated auto accident injury caused by rapid neck acceleration and deceleration. Symptoms—including neck pain, headaches, and numbness—may appear hours or days after impact. Early chiropractic treatment is critical for preventing chronic complications like persistent pain and scar tissue formation. Fremont Auto Injury Clinic offers same-day appointments and comprehensive care combining adjustments, physical therapy, and soft tissue treatment. Recovery timelines vary from weeks to months depending on injury severity and individual factors. Prompt intervention significantly improves outcomes and reduces long-term complications. The clinic handles insurance coverage, ensuring accessible treatment for accident victims seeking proper rehabilitation and complete recovery.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9/blog/understanding-whiplash-causes-symptoms-and-recover.html" class="inline-flex items-center gap-2 btn-gradient px-8 py-4 rounded-lg font-bold text-lg">
+                                Read Full Article
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">More Articles Coming Soon</h2>
+                <div class="h-1 w-20 bg-gradient-to-r from-[#FF5A5F] to-[#FFD166] rounded-full"></div>
+            </div>
+
+            <!-- Empty State -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="blog-card bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200 border-dashed flex items-center justify-center min-h-96">
+                    <div class="text-center">
+                        <i class="fas fa-pen-fancy text-gray-300 text-5xl mb-4"></i>
+                        <p class="text-gray-500 font-medium">More expert articles coming soon...</p>
+                    </div>
+                </div>
+                <div class="blog-card bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200 border-dashed flex items-center justify-center min-h-96">
+                    <div class="text-center">
+                        <i class="fas fa-pen-fancy text-gray-300 text-5xl mb-4"></i>
+                        <p class="text-gray-500 font-medium">More expert articles coming soon...</p>
+                    </div>
+                </div>
+                <div class="blog-card bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200 border-dashed flex items-center justify-center min-h-96">
+                    <div class="text-center">
+                        <i class="fas fa-pen-fancy text-gray-300 text-5xl mb-4"></i>
+                        <p class="text-gray-500 font-medium">More expert articles coming soon...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Topics Preview -->
+            <div class="mt-16 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12 border border-gray-100">
+                <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8">Topics We're Covering</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                            <i class="fas fa-check text-white font-bold"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">Whiplash Recovery</h4>
+                            <p class="text-gray-600 text-sm">Comprehensive guides on treating whiplash injuries</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                            <i class="fas fa-check text-white font-bold"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">Back Pain Management</h4>
+                            <p class="text-gray-600 text-sm">Expert strategies for managing auto-related back pain</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                            <i class="fas fa-check text-white font-bold"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">Chiropractic Basics</h4>
+                            <p class="text-gray-600 text-sm">Understanding chiropractic care and its benefits</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                            <i class="fas fa-check text-white font-bold"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">Insurance & Claims</h4>
+                            <p class="text-gray-600 text-sm">Navigating insurance coverage for auto injuries</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                            <i class="fas fa-check text-white font-bold"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">Prevention Tips</h4>
+                            <p class="text-gray-600 text-sm">How to prevent injuries and stay safe on the road</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                            <i class="fas fa-check text-white font-bold"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-900 mb-1">Rehabilitation Exercises</h4>
+                            <p class="text-gray-600 text-sm">Effective exercises for faster recovery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-24 overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1576091160550-112173f31c77?w=1200&q=80'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-r from-[rgba(26,26,26,0.85)] to-[rgba(26,26,26,0.75)]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6">
+                    Need Immediate Care?
+                </h2>
+                <p class="text-xl md:text-2xl text-gray-100 font-medium mb-10 max-w-2xl mx-auto">
+                    Don't wait for relief. Schedule your same-day appointment with Fremont Auto Injury Clinic today
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://fremontautoinjuryclinic.com" class="btn-gradient px-10 py-5 rounded-lg font-bold text-xl text-center inline-block shadow-2xl">
+                        Book Your Appointment Now
+                    </a>
+                    <a href="tel:+1234567890" class="px-10 py-5 rounded-lg font-bold text-xl border-2 border-white text-white hover:bg-white hover:text-[#FF5A5F] transition-all duration-300 text-center inline-block">
+                        Call Us Today
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div class="flex flex-col gap-6">
+                    <div class="flex items-center gap-2">
+                        <div class="gradient-primary w-10 h-10 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-heartbeat text-white text-lg font-bold"></i>
+                        </div>
+                        <span class="text-2xl font-bold text-white">Fremont Auto Injury</span>
+                    </div>
+                    <p class="text-gray-400 font-medium leading-relaxed">
+                        Expert chiropractic care for auto injury recovery with same-day appointments and compassionate treatment.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-all duration-300 text-gray-300 hover:text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-all duration-300 text-gray-300 hover:text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-all duration-300 text-gray-300 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-all duration-300 text-gray-300 hover:text-white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services Column -->
+                <div>
+                    <h4 class="text-xl font-bold text-white mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Auto Injury Treatment</a></li>
+                        <li><a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Chiropractic Care</a></li>
+                        <li><a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Rehabilitation</a></li>
+                        <li><a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Preventative Care</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources Column -->
+                <div>
+                    <h4 class="text-xl font-bold text-white mb-6">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="blog.html" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Blog</a></li>
+                        <li><a href="https://ChiroTrack.github.io/fremont-auto-injury-clinic-2025-11-29-1imj9#faq" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">FAQ</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div>
+                    <h4 class="text-xl font-bold text-white mb-6">Contact</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-envelope text-[#FF5A5F] mt-1 flex-shrink-0"></i>
+                            <a href="mailto:litchiropractic1@gmail.com" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium break-all">litchiropractic1@gmail.com</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-phone text-[#FF5A5F] mt-1 flex-shrink-0"></i>
+                            <a href="tel:+1234567890" class="text-gray-400 hover:text-[#FFD166] transition-colors duration-300 font-medium">(123) 456-7890</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-[#FF5A5F] mt-1 flex-shrink-0"></i>
+                            <p class="text-gray-400 font-medium">Fremont, California</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                    <p class="text-gray-400 font-medium text-center md:text-left">
+                        &copy; 2025 Fremont Auto Injury Clinic. All rights reserved.
+                    </p>
+                    <p class="text-gray-400 font-medium text-center">
+                        Expert chiropractic care for your recovery
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Lucide Icons
+            lucide.createIcons();
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
